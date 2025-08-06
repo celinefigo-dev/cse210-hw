@@ -1,0 +1,6 @@
+1900
+3
+SimpleGoal:Run a Marathon,Complete a full marathon,1000
+EternalGoal:Read Scriptures,Read scriptures daily,100
+ChecklistGoal:Attend the Temple,Attend the temple 10 times,50,10,500,10
+NegativeGoal:Procrastinate,Delay your work,200

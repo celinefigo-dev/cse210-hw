@@ -1,0 +1,4 @@
+0
+1
+EternalGoal:Endowdedment,Get Endowded,100
+EternalGoal:Sealing,Get sealed,20000
