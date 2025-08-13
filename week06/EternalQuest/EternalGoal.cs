@@ -1,19 +1,19 @@
 using System;
 
-public class SimpleGoal : Goal
+public class EternalGoal : Goal
 {
-    public SimpleGoal(string name, string description, int points) : base(name, description, points)
+    public EternalGoal(string name, string description, int points) : base(name, description, points)
     {
     }
 
     public override void RecordEvent()
     {
-        _isComplete = true;
+        // No implementation needed
     }
 
     public override bool IsComplete()
     {
-        return _isComplete;
+        return false;
     }
 
     public override string GetDetailsString()
@@ -23,6 +23,7 @@ public class SimpleGoal : Goal
 
     public override string GetStringRepresentation()
     {
-        return _isComplete ? "[X] " + _shortName : "[ ] " + _shortName;
+        return "[ ] " + _shortName;
     }
 }
+
